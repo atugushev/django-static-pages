@@ -10,8 +10,8 @@ A reusable Django app that generates static pages using Django test client.
 .. image:: https://api.travis-ci.org/atugushev/django-static-pages.png
    :target: https://travis-ci.org/atugushev/django-static-pages
 
-.. image:: https://coveralls.io/repos/atugushev/django-static-pages/badge.png?branch=master
-   :target: https://coveralls.io/r/atugushev/django-static-pages
+.. image:: https://coveralls.io/repos/atugushev/django-static-pages/badge.svg?branch=master&service=github
+   :target: https://coveralls.io/github/atugushev/django-static-pages?branch=master
 
 Installation
 ------------
