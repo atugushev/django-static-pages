@@ -4,14 +4,14 @@ Django Static Pages
 
 A reusable Django app that generates static pages using Django test client.
 
-.. image:: https://badge.fury.io/py/django-static-pages.png
-   :target: http://badge.fury.io/py/django-static-pages
+.. image:: https://badge.fury.io/py/django-static-pages.svg
+    :target: https://badge.fury.io/py/django-static-pages
 
-.. image:: https://api.travis-ci.org/atugushev/django-static-pages.png
-   :target: https://travis-ci.org/atugushev/django-static-pages
+.. image:: https://travis-ci.org/atugushev/django-static-pages.svg?branch=master
+    :target: https://travis-ci.org/atugushev/django-static-pages
 
 .. image:: https://coveralls.io/repos/atugushev/django-static-pages/badge.svg?branch=master&service=github
-   :target: https://coveralls.io/github/atugushev/django-static-pages?branch=master
+    :target: https://coveralls.io/github/atugushev/django-static-pages?branch=master
 
 Installation
 ------------
