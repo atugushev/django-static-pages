@@ -60,7 +60,7 @@ class Command(BaseCommand):
             response = client.get(page_url)
 
             # Write output
-            with open(dest_file, 'w') as f:
+            with open(dest_file, 'wb') as f:
                 stream = getattr(self, 'stdout') if response.status_code == 200 else getattr(self, 'stderr')
                 stream.write('Generate static page: %(file)s (%(status_code)s)' % {
                     'file': dest_file,
