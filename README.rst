@@ -46,7 +46,7 @@ Set path for an output directory of the static files::
 This kwargs will be passed to the Django test client arguments. It may be usefull if you want to
 control WSGI environments of the ``RequestFactory`` of the the client::
 
-    STATIC_CLIENT_KWARGS = {
+    STATIC_PAGES_CLIENT_KWARGS = {
         'HTTP_SERVER_NAME': 'example.com',
     }
 
