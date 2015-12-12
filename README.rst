@@ -47,7 +47,7 @@ This kwargs will be passed to the Django test client arguments. It may be useful
 control WSGI environments of the ``RequestFactory`` of the the client::
 
     STATIC_PAGES_CLIENT_KWARGS = {
-        'HTTP_SERVER_NAME': 'example.com',
+        'SERVER_NAME': 'example.com',
     }
 
 Usage
