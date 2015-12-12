@@ -61,8 +61,7 @@ class Command(BaseCommand):
 
             # Write output
             with open(dest_file, 'wb') as f:
-                stream = getattr(self, 'stdout') if response.status_code == 200 else getattr(self, 'stderr')
-                stream.write('Generate static page: %(file)s (%(status_code)s)' % {
+                self.stdout.write('Generate static page: %(file)s (%(status_code)s)' % {
                     'file': dest_file,
                     'status_code': response.status_code
                 })
