@@ -53,4 +53,3 @@ class GenerateStaticPagesCase(SimpleTestCase):
         stdout = StringIO()
         self.command.execute(stdout=stdout)
         self.assertEqual(stdout.getvalue(), "Nothing to generate\n")
-        print settings.STATIC_ROOT
