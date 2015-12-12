@@ -16,7 +16,7 @@ setup(
     name='django-static-pages',
     version=VERSION,
     packages=find_packages(),
-    install_requires=['Django>=1.7,<=1.9'],
+    install_requires=['Django>=1.5'],
     test_suite="static_pages.tests.runner.runtests",
     include_package_data=True,
     license='MIT License',

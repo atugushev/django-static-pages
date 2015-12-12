@@ -61,5 +61,5 @@ Just execute the following command::
 Requirements
 ------------
 
-* Python 2.6+ or 3+
-* Django>=1.7,<=1.9
+* Python 2.7+ or 3+
+* Django>=1.5
